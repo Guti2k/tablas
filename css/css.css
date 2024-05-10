@@ -1,0 +1,15 @@
+table {
+    width: 100%; /* Ancho total de la tabla */
+    border-collapse: collapse; /* Eliminar bordes entre celdas */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Bordes para cada celda */
+    padding: 5px; /* Espacio interior de las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+th {
+    background-color: #eee; /* Color de fondo del encabezado */
+    font-weight: bold; /* Texto en negrita para el encabezado */
+}
